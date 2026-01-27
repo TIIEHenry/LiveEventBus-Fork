@@ -31,27 +31,12 @@ LiveEventBus | :white_check_mark: | :white_check_mark: | :white_check_mark: | :w
 #### 想了解更多？请点击：[全面了解Android消息总线](https://github.com/JeremyLiao/SmartEventBus/blob/master/docs/bus_all.md)
 
 ## 使用
-> 1.8及以上版本全面迁移至maven，同时groupID变为io.github.jeremyliao，1.8以下版本保留JCenter
-#### maven
 
-- 非AndroidX
+//todo
 ```
-implementation 'io.github.jeremyliao:live-event-bus:1.8.0'
+implementation 'io.github.tiiehenry:live-event-bus-x:1.8.0'
 ```
-- AndroidX
-```
-implementation 'io.github.jeremyliao:live-event-bus-x:1.8.0'
-```
-#### JCenter
-- 非AndroidX
 
-```
-implementation 'com.jeremyliao:live-event-bus:1.7.3'
-```
-- AndroidX
-```
-implementation 'com.jeremyliao:live-event-bus-x:1.7.3'
-```
 
 ## 快速开始
 ### 订阅消息

@@ -1,3 +1,0 @@
-include ':app'
-include ':liveeventbus-x'
-include ':lebx-processor-gson'

@@ -1,0 +1,19 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    namespace "com.jeremyliao.liveeventbus.processor.gson"
+    compileSdkVersion 36
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 36
+    }
+}
+
+dependencies {
+    compileOnly project(':liveeventbus')
+
+    implementation "com.google.code.gson:gson:2.13.1"
+}
